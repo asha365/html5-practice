@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conceptual session html5 & css3</title>
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+        .container{
+            background-color: gray; 
+            height: 50px;
+        }
+
+        nav > ul > li{
+            list-style: none;          
+            float: left;
+      }
+    
+      
+
+      nav li:hover{
+        text-decoration: none;
+        background-color: palevioletred;
+        color: rebeccapurple;
+      }
+      nav li{
+        list-style: none;
+        padding: 10px;
+       
+      }
+      nav a{
+          text-decoration: none;
+      }
+
+      .dropdown{
+        display: none;
+        position: absolute;
+        background-color: gray;
+        padding: 0px;
+      }
+      nav > ul> li:hover > ul {
+        display: block;
+      
+      }
+    
+      
+    
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a>
+              <li><a href="audio.html">Audio</a></li>
+              <li><a href="form.html">Form</a>
+                    <ul class="dropdown">
+                        <li><a href="others.html">others1</a></li>
+                        <li><a href="others.html">others2</a></li>
+                        <li><a href="others.html">others3</a></li>
+                    </ul>
+            </li>
+              <li><a href="semantic.html">Semantic</a></li>
+              <li><a href="position.html">Position</a></li>
+              <li><a href="pseudo.html">Pseudo</a></li>
+              <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+</body>
+</html>
+</body>
+</html>
